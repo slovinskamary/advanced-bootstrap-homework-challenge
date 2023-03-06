@@ -105,8 +105,16 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
-@media (min-width: 800px) {
+@media (max-width: 800px) {
   img {
     display: none;
+  }
+  .primary-link {
+    display: flex;
+    justify-content: center;
+    
+  }
+  h1 {
+    font-size: 80px;
   }
 }
